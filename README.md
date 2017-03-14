@@ -1,7 +1,7 @@
 # DoSC
 A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories
 
-![DoSc logo](www.cs.toronto.edu/~polaris/img/benchmark/DoSC.png "DoSC")
+![DoSc logo](http://www.cs.toronto.edu/~polaris/img/benchmark/DoSC.png "DoSC")
 
 <This repository is for MSR 2017 paper - *A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories*.>
 
