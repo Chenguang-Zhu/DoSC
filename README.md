@@ -11,7 +11,7 @@ DoSC is distributed under Apache license. See [license.txt](https://github.com/C
 
 ## Dataset
 ### Usage
-1. Pick a functionality that you would like to analyze from the dataset. 
+1. Pick a functionality from the dataset. (See the table below.)
 2. View its meta-data file. See [meta-data collections](https://github.com/Chenguang-Zhu/DoSC/blob/master/meta-data).
 3. Access the repository of the project via the link provided in the `project url` field of the meta-data.
 4. Use `git clone` command to clone the project repository to the user's local file system.
@@ -20,6 +20,7 @@ DoSC is distributed under Apache license. See [license.txt](https://github.com/C
 7. Compare the resulting semantic history slice with the 1-minimal ground truth we provide (field `history slice`).
 8. Repeat the steps 1-6 until the evaluation is sufficient. 
 
+### Statistics
 #### Columns in the table:
 >+ **Functionality ID**: The JIRA issue key of the functionality - a unique identifier originally assigned by developers in the JIRA issue tracking system.
 >+ **History Start**: The starting point of the history segment where the functionality was developed. It is the SHA-1 ID of a release commit, which is the closest release version before the functionality was developed.
