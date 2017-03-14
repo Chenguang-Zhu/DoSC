@@ -1,0 +1,35 @@
+id: LANG-944
+description: Add the Jaro-Winkler string distance algorithm to StringUtils
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-944
+history start: c4ecd75
+history end: 66a3717
+test suite:
+  - "StringUtilsTest.testGetJaroWinklerDistance_StringString"
+history slice:
+  - "33b22d8b"
+  - "0f2e42d6"
+  - "c99a4a3e"
+  - "24b6a468"
+  - "d971fa4c"
+  - "1b6457f7"
+  - "d883e823"
+  - "18c73f2d"
+  - "8ea0c028"
+  - "b05a81de"
+  - "5f8d9969"
+  - "11a15c63"
+  - "c825a13b"
+  - "2b795dd0"
+  - "d048a375"
+  - "1f9493cd"
+  - "c20c8fa1"
+  - "0a4525ef"
+  - "43008052"
+  - "0942ef04"
+  - "b3c1a78d"
+  - "5d10a4a6"
+  - "8cd2339a"
+  - "7460a856"

@@ -1,0 +1,28 @@
+id: PDFBOX-3461
+description: Improve handling of line breaking characters when setting AcroForm field values
+project:
+  name: Pdfbox
+  project url: https://github.com/MSR-2017/pdfbox
+issue url: https://issues.apache.org/jira/browse/PDFBOX-3461
+history start: 3b5ae83
+history end: 5848e90
+test suite:
+  - "ControlCharacterTest.characterNUL"
+  - "ControlCharacterTest.characterTAB"
+  - "ControlCharacterTest.characterSPACE"
+  - "ControlCharacterTest.characterCR"
+  - "ControlCharacterTest.characterLF"
+  - "ControlCharacterTest.characterCRLF"
+  - "ControlCharacterTest.characterLFCR"
+  - "ControlCharacterTest.characterUnicodeLinebreak"
+  - "ControlCharacterTest.characterUnicodeParagraphbreak"
+  - "PlainTextTest.characterCR"
+  - "PlainTextTest.characterLF"
+  - "PlainTextTest.characterCRLF"
+  - "PlainTextTest.characterLFCR"
+  - "PlainTextTest.characterUnicodeLinebreak"
+  - "PlainTextTest.characterUnicodeParagraphbreak"
+history slice:
+  - "5a0e4015"
+  - "0f1442be"
+  - "6354ec6b"

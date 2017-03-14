@@ -1,0 +1,16 @@
+id: LANG-906
+description: Add new type utility features
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-906
+history start: bae9f7c3
+history end: 15a51f1d
+test suite:
+  - "TypeUtilsTest.testParameterize"
+  - "TypeUtilsTest.testParameterizeWithOwner"
+  - "TypeUtilsTest.testWildcardType"
+  - "TypeUtilsTest.testGenericArrayType"
+  - "TypeUtilsTest.testToLongString"
+history slice:
+  - "01925653"

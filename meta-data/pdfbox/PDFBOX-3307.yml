@@ -1,0 +1,13 @@
+id: PDFBOX-3307
+description: Enable AES128 encryption
+project:
+  name: Pdfbox
+  project url: https://github.com/MSR-2017/pdfbox
+issue url: https://issues.apache.org/jira/browse/PDFBOX-3307
+history start: a281f71
+history end: 9e102f2
+test suite:
+  - "TestSymmetricKeyEncryption.testProtectionInnerAttachment"
+  - "TestSymmetricKeyEncryption.testProtection"
+history slice:
+  - "d186c310"

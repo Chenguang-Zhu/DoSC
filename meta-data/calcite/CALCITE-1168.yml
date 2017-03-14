@@ -1,0 +1,15 @@
+id: CALCITE-1168
+description: Add DESCRIBE SCHEMA/DATABASE/TABLE/query
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-1168
+history start: 8eebfc6d
+history end: aeb6bf14
+test suite:
+  - "SqlParserTest.testDescribeSchema"
+  - "SqlParserTest.testDescribeTable"
+  - "SqlParserTest.testDescribeStatement"
+history slice:
+  - "a065200a"
+  - "da875a67"

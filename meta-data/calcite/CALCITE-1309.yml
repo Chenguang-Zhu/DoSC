@@ -1,0 +1,24 @@
+id: CALCITE-1309
+description: Support LATERAL TABLE
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-1309
+history start: aeb6bf14
+history end: 08c56b15
+test suite:
+  - "SqlParserTest.testCollectionTableWithLateral"
+  - "SqlParserTest.testCollectionTableWithLateral2"
+  - "SqlParserTest.testCollectionTableWithLateral3"
+  - "SqlToRelConverterTest.testCollectionTableWithLateral"
+  - "SqlToRelConverterTest.testCollectionTableWithLateral2"
+  - "SqlValidatorTest.testCollectionTableWithLateral"
+  - "SqlValidatorTest.testCollectionTableWithLateral2"
+history slice:
+  - "0599cdde"
+  - "acd27fde"
+  - "787a9a1b"
+  - "c933c79f"
+  - "71df67c9"
+  - "a859f93f"
+  - "0938c7b6"

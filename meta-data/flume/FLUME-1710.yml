@@ -1,0 +1,12 @@
+id: FLUME-1710
+description: JSONEvent.getBody should not return null
+project:
+  name: Flume
+  project url: https://github.com/MSR-2017/flume
+issue url: https://issues.apache.org/jira/browse/FLUME-1710
+history start: 31d45f1b
+history end: f7560038
+test suite:
+  - "TestEventBuilder.testJsonEventUnsupportedEncoding"
+history slice:
+  - "aa6fb7fb"

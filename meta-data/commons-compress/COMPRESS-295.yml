@@ -1,0 +1,13 @@
+id: COMPRESS-295
+description: Add support for transferring a zip entry from one zip file to another
+project:
+  name: Commons-compress
+  project url: https://github.com/MSR-2017/commons-compress
+issue url: https://issues.apache.org/jira/browse/COMPRESS-295
+history start: 083e7a4
+history end: 1dcab3f
+test suite:
+  - "ZipTestCase.testCopyRawEntriesFromFile"
+  - "ZipTestCase.testExplicitDirectoryEntry"
+history slice:
+  - "9067b02c"

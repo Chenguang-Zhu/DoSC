@@ -1,0 +1,13 @@
+id: PDFBOX-3069
+description: Add code for CCITT compression
+project:
+  name: Pdfbox
+  project url: https://github.com/MSR-2017/pdfbox
+issue url: https://issues.apache.org/jira/browse/PDFBOX-3069
+history start: 3b5ae83
+history end: 5848e90
+test suite:
+  - "CCITTFactoryTest.testCreateFromBufferedChessImage"
+  - "CCITTFactoryTest.testCreateFromBufferedImage"
+history slice:
+  - "d138f0b6"

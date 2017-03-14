@@ -1,0 +1,19 @@
+id: CALCITE-767
+description: Commit functionality not exposed by the RPC server
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-767
+history start: ba6e43c6
+history end: c4d346b0
+test suite:
+  - "ProtobufServiceTest.testCastProtobufMessage"
+history slice:
+  - "3be816f4"
+  - "d259cad2"
+  - "cd58fe73"
+  - "a8a8878d"
+  - "eedd3dc4"
+  - "980d9f81"
+  - "83fedf32"
+  - "322b9730"

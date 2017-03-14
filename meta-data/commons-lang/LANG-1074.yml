@@ -1,0 +1,25 @@
+id: LANG-1074
+description: Add a method to ArrayUtils for removing all occurrences of a given element
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-1074
+history start: 0d5d666
+history end: 36f98d8
+test suite:
+  - "ArrayUtilsRemoveTest.testRemoveAllBooleanOccurences"
+  - "ArrayUtilsRemoveTest.testRemoveAllCharOccurences"
+  - "ArrayUtilsRemoveTest.testRemoveAllByteOccurences"
+  - "ArrayUtilsRemoveTest.testRemoveAllShortOccurences"
+  - "ArrayUtilsRemoveTest.testRemoveAllIntOccurences"
+  - "ArrayUtilsRemoveTest.testRemoveAllLongOccurences"
+  - "ArrayUtilsRemoveTest.testRemoveAllFloatOccurences"
+  - "ArrayUtilsRemoveTest.testRemoveAllDoubleOccurences"
+  - "ArrayUtilsRemoveTest.testRemoveAllObjectOccurences"
+history slice:
+  - "cdbf4758"
+  - "1c532efd"
+  - "76cc69c3"
+  - "c9d3c58e"
+  - "86c76dd5"
+  - "3051264e"

@@ -1,0 +1,22 @@
+id: COMPRESS-369
+description: Allow archiver extensions through a standard JRE ServiceLoader
+project:
+  name: Commons-compress
+  project url: https://github.com/MSR-2017/commons-compress
+issue url: https://issues.apache.org/jira/browse/COMPRESS-369
+history start: 99bc508
+history end: b29395d
+test suite:
+  - "ArchiveServiceLoaderTest.testInputStream"
+  - "ArchiveServiceLoaderTest.testOutputStream"
+history slice:
+  - "9a677fbe"
+  - "f8e09945"
+  - "f5a98515"
+  - "52dd5908"
+  - "f0102601"
+  - "9e32a2ce"
+  - "7e35f57a"
+  - "57511f57"
+  - "f965bc23"
+  - "22edc12a"

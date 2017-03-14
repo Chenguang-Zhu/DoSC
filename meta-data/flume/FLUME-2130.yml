@@ -1,0 +1,14 @@
+id: FLUME-2130
+description: Handle larger payloads via SyslogUDPSource
+project:
+  name: Flume
+  project url: https://github.com/MSR-2017/flume
+issue url: https://issues.apache.org/jira/browse/FLUME-2130
+history start: cda3bd10
+history end: 31d45f1b
+test suite:
+  - "TestSyslogUdpSource.testLargePayload"
+history slice:
+  - "1f95219e"
+  - "9790ca75"
+  - "e07a0a68"

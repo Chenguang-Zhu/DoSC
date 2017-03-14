@@ -1,0 +1,22 @@
+id: CALCITE-674
+description: Add a SWAP_OUTER static instance to JoinCommuteRule
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-674
+history start: d60f2aa3
+history end: 495f1859
+test suite:
+  - "RelOptRulesTest.testSwapOuterJoin"
+history slice:
+  - "57f06cad"
+  - "ec925e2d"
+  - "3e26a873"
+  - "b0380a16"
+  - "88a6c5bd"
+  - "01183de8"
+  - "7f8ce197"
+  - "9da7bc89"
+  - "bf88476b"
+  - "d952efb8"
+  - "495f1859"

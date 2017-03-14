@@ -1,0 +1,18 @@
+id: FLUME-2052
+description: Spooling directory source should be able to replace or ignore malformed characters
+project:
+  name: Flume
+  project url: https://github.com/MSR-2017/flume
+issue url: https://issues.apache.org/jira/browse/FLUME-2052
+history start: cda3bd10
+history end: 31d45f1b
+test suite:
+  - "TestResettableFileInputStream.testUtf8DecodeErrorHandlingFailMalformed"
+  - "TestResettableFileInputStream.testUtf8DecodeErrorHandlingIgnore"
+  - "TestResettableFileInputStream.testUtf8DecodeErrorHandlingReplace"
+  - "TestResettableFileInputStream.testLatin1DecodeErrorHandlingFailMalformed"
+  - "TestResettableFileInputStream.testLatin1DecodeErrorHandlingReplace"
+history slice:
+  - "f9da62be"
+  - "ffa70642"
+  - "b84d0161"

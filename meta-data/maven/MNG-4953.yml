@@ -1,0 +1,17 @@
+id: MNG-4953
+description: Issue a warning when a system-scope dependency refers to the project basedir
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-4953
+history start: 38ced22
+history end: 0023226
+test suite:
+  - "DefaultModelValidatorTest.testSystemPathRefersToProjectBasedir"
+history slice:
+  - "308d4d45"
+  - "fb52cac0"
+  - "32dd64f7"
+  - "c4f1c5ca"
+  - "499e2d7e"
+  - "00232269"

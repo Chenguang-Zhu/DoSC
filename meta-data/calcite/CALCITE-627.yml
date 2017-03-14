@@ -1,0 +1,31 @@
+id: CALCITE-627
+description: Add Avatica support for getTableTypes, getColumns
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-627
+history start: f10ea367
+history end: d60f2aa3
+test suite:
+  - "CalciteRemoteDriverTest.testRemoteColumns"
+  - "CalciteRemoteDriverTest.testRemoteTableTypes"
+history slice:
+  - "22f42e46"
+  - "119a3993"
+  - "4d2f647a"
+  - "fe13dd3b"
+  - "8b9a5776"
+  - "76a0665c"
+  - "0fe2637d"
+  - "208eda66"
+  - "0ad6019b"
+  - "18fea1f0"
+  - "c446e02a"
+  - "0f824f81"
+  - "17d7a8e3"
+  - "fa9bdc4a"
+  - "0ea085b7"
+  - "304eb70c"
+  - "5648083f"
+  - "0d80fd25"
+  - "d60f2aa3"

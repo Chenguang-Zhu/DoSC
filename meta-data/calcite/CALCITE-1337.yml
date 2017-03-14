@@ -1,0 +1,17 @@
+id: CALCITE-1337
+description: Lazy evaluate RexCall digests
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-1337
+history start: aeb6bf14
+history end: 08c56b15
+test suite:
+  - "SqlToRelConverterTest.testLarge"
+  - "SqlValidatorTest.testLarge"
+history slice:
+  - "acd27fde"
+  - "787a9a1b"
+  - "c933c79f"
+  - "a859f93f"
+  - "0938c7b6"

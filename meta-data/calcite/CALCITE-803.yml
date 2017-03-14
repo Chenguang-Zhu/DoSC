@@ -1,0 +1,12 @@
+id: CALCITE-803
+description: Add a MYSQL_ANSI option for Lex options
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-803
+history start: 495f1859
+history end: 0c0c203d
+test suite:
+  - "JdbcTest.testLexMySQLANSI"
+history slice:
+  - "e0a42301"

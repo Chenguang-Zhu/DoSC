@@ -1,0 +1,17 @@
+id: CALCITE-1028
+description: Move populate materializations after sql-to-rel conversion
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-1028
+history start: ba6e43c6
+history end: c4d346b0
+test suite:
+  - "MaterializationTest.testViewSchemaPath"
+history slice:
+  - "19a67e1d"
+  - "14419d8c"
+  - "05fbd126"
+  - "b5b28f0b"
+  - "4762b889"
+  - "c104c75b"

@@ -1,0 +1,18 @@
+id: MNG-4910
+description: Use BeanConfigurator for configuration sub-elements
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-4910
+history start: b175144
+history end: 308d4d4
+test suite:
+  - "DefaultBeanConfiguratorTest.testChildConfigurationElement"
+history slice:
+  - "eaf528f2"
+  - "03789c31"
+  - "22f6fe36"
+  - "93af60e0"
+  - "7e57e9ea"
+  - "38ced22f"
+  - "308d4d45"

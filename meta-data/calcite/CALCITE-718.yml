@@ -1,0 +1,25 @@
+id: CALCITE-718
+description: Enable fetch to work for Statement.execute()
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-718
+history start: 495f1859
+history end: 0c0c203d
+test suite:
+  - "RemoteDriverTest.testStatementExecuteFetch"
+history slice:
+  - "6b16ca59"
+  - "fcab7a88"
+  - "5c049bc8"
+  - "83707f72"
+  - "a45d5423"
+  - "e8c3cccd"
+  - "ec9d9660"
+  - "530e398b"
+  - "4cc539fc"
+  - "ced25ee3"
+  - "d559bacf"
+  - "03111d2b"
+  - "c818d50b"
+  - "0c0c203d"

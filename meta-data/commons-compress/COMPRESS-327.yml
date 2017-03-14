@@ -1,0 +1,54 @@
+id: COMPRESS-327
+description: Support in-memory processing for ZipFile
+project:
+  name: Commons-compress
+  project url: https://github.com/MSR-2017/commons-compress
+issue url: https://issues.apache.org/jira/browse/COMPRESS-327
+history start: 99bc508
+history end: b29395d
+test suite:
+  - "SevenZFileTest.getEntriesOfUnarchiveInMemoryTest"
+  - "ZipFileTest.testCDOrderInMemory"
+  - "ZipTestCase.testZipArchiveCreationInMemory"
+  - "SevenZOutputFileTest.testStackOfContentCompressionsInMemory"
+  - "SevenZFileTest.getEntriesOfUnarchiveInMemoryTest"
+  - "SeekableInMemoryByteChannelTest.shouldReadContentsProperly"
+  - "SeekableInMemoryByteChannelTest.shouldReadContentsWhenBiggerBufferSupplied"
+  - "SeekableInMemoryByteChannelTest.shouldReadDataFromSetPosition"
+  - "SeekableInMemoryByteChannelTest.shouldSignalEOFWhenPositionAtTheEnd"
+  - "SeekableInMemoryByteChannelTest.shouldThrowExceptionOnReadingClosedChannel"
+  - "SeekableInMemoryByteChannelTest.shouldWriteDataProperly"
+  - "SeekableInMemoryByteChannelTest.shouldWriteDataProperlyAfterPositionSet"
+  - "SeekableInMemoryByteChannelTest.shouldThrowExceptionOnWritingToClosedChannel"
+  - "SeekableInMemoryByteChannelTest.shouldTruncateContentsProperly"
+  - "SeekableInMemoryByteChannelTest.shouldSetProperPositionOnTruncate"
+  - "SeekableInMemoryByteChannelTest.shouldSetProperPosition"
+  - "SeekableInMemoryByteChannelTest.shouldThrowExceptionWhenSettingIncorrectPosition"
+  - "SeekableInMemoryByteChannelTest.shouldThrowExceptionWhenSettingPositionOnClosedChannel"
+history slice:
+  - "9a677fbe"
+  - "f8e09945"
+  - "f5a98515"
+  - "b3c6bf72"
+  - "d5aa050a"
+  - "4865194d"
+  - "77388c82"
+  - "32c30f6f"
+  - "52dd5908"
+  - "f0102601"
+  - "9e32a2ce"
+  - "87f0f2ec"
+  - "daeb0745"
+  - "94197a7b"
+  - "d8fc27b4"
+  - "dec527d6"
+  - "7e35f57a"
+  - "57511f57"
+  - "e926d99b"
+  - "09edbd8f"
+  - "1e0957d5"
+  - "a2976b66"
+  - "72b17896"
+  - "12d9048c"
+  - "42216000"
+  - "46f57bf9"

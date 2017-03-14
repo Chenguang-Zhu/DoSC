@@ -1,0 +1,22 @@
+id: MNG-5754
+description: Toolchains should be read during initialization
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-5754
+history start: d13c288
+history end: cab6659
+test suite:
+  - "DefaultToolchainManagerPrivateTest.testToolchainsForAvailableType"
+  - "DefaultToolchainManagerPrivateTest.testToolchainsForUnknownType"
+  - "DefaultToolchainManagerPrivateTest.testToolchainsForConfiguredType"
+  - "DefaultToolchainManagerPrivateTest.testMisconfiguredToolchain"
+history slice:
+  - "12a6b3ac"
+  - "fa71e5f5"
+  - "a7ef7018"
+  - "ceae9226"
+  - "2d0ec942"
+  - "3e133902"
+  - "f7500874"
+  - "b6ae8ef8"

@@ -1,0 +1,14 @@
+id: CALCITE-925
+description: Match materialized views when predicates contain strings and ranges
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-925
+history start: 0c0c203d
+history end: ba6e43c6
+test suite:
+  - "RexImplicationCheckerTest.testSimpleString"
+  - "RexImplicationCheckerTest.testSimpleBetween"
+  - "RexImplicationCheckerTest.testSimpleBetweenCornerCases"
+history slice:
+  - "9db3b023"

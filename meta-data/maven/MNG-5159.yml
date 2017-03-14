@@ -1,0 +1,16 @@
+id: MNG-5159
+description: Extend validation of settings.xml to check for uniqueness of id elements
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-5159
+history start: 089a9f8
+history end: 6d37598
+test suite:
+  - "DefaultSettingsValidatorTest.testValidateRepository"
+  - "DefaultSettingsValidatorTest.testValidateUniqueServerId"
+  - "DefaultSettingsValidatorTest.testValidateUniqueProfileId"
+  - "DefaultSettingsValidatorTest.testValidateUniqueRepositoryId"
+history slice:
+  - "98924fcc"
+  - "51ec875d"

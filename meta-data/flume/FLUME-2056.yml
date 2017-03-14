@@ -1,0 +1,16 @@
+id: FLUME-2056
+description: Allow SpoolDir to pass just the filename that is the source of an event
+project:
+  name: Flume
+  project url: https://github.com/MSR-2017/flume
+issue url: https://issues.apache.org/jira/browse/FLUME-2056
+history start: cda3bd10
+history end: 31d45f1b
+test suite:
+  - "TestSpoolDirectorySource.testPutBasenameHeader"
+history slice:
+  - "f9da62be"
+  - "ffa70642"
+  - "b84d0161"
+  - "c23448fc"
+  - "72b3b788"

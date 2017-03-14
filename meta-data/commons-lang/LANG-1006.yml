@@ -1,0 +1,26 @@
+id: LANG-1006
+description: Add wrap (with String or char) to StringUtils
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-1006
+history start: 24767d6
+history end: 76cc69c
+test suite:
+  - "StringUtilsTest.testWrap_StringChar"
+  - "StringUtilsTest.testWrap_StringString"
+history slice:
+  - "d72d2b08"
+  - "6b438fe9"
+  - "fbb0f7f8"
+  - "b4647110"
+  - "454fd1ea"
+  - "61259510"
+  - "b4b51a8f"
+  - "64ef8a80"
+  - "4b74c385"
+  - "fd54d42f"
+  - "75fbc009"
+  - "d910918f"
+  - "7d6e0bec"
+  - "c3d65461"

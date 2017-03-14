@@ -1,0 +1,34 @@
+id: MNG-5767
+description: project-specific default jvm options and command line parameters
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-5767
+history start: d13c288
+history end: cab6659
+test suite:
+  - "MavenCliTest.testCalculateDegreeOfConcurrencyWithCoreMultiplier"
+  - "MavenCliTest.testMavenConfig"
+  - "MavenCliTest.testMavenConfigInvalid"
+history slice:
+  - "12a6b3ac"
+  - "fa71e5f5"
+  - "a7ef7018"
+  - "ceae9226"
+  - "1420d61c"
+  - "328a777c"
+  - "bb498849"
+  - "f7500874"
+  - "4f05b59d"
+  - "3c63c3b5"
+  - "d745f8c4"
+  - "2d34e67e"
+  - "dd5eb31a"
+  - "8ed9a1ca"
+  - "117df855"
+  - "8631d79c"
+  - "6efacdb3"
+  - "bdb4c32e"
+  - "e28be4d3"
+  - "79976342"
+  - "db9e7896"

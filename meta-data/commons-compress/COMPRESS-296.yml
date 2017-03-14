@@ -1,0 +1,50 @@
+id: COMPRESS-296
+description: Support parallel compression of zip files
+project:
+  name: Commons-compress
+  project url: https://github.com/MSR-2017/commons-compress
+issue url: https://issues.apache.org/jira/browse/COMPRESS-296
+history start: 083e7a4
+history end: 1dcab3f
+test suite:
+  - "ScatterZipOutputStreamTest.putArchiveEntry"
+  - "StreamCompressorTest.storedEntries"
+  - "StreamCompressorTest.deflatedEntries"
+history slice:
+  - "de633069"
+  - "6863d0af"
+  - "7ac9b8e0"
+  - "9067b02c"
+  - "8a4ea62f"
+  - "e214adb4"
+  - "99d11ce4"
+  - "14187056"
+  - "5f99a51d"
+  - "efb1ca80"
+  - "2db99ab5"
+  - "e6be3683"
+  - "98f98c49"
+  - "e1914af4"
+  - "790fd918"
+  - "d5f5da94"
+  - "386b36f3"
+  - "4e6b2cb2"
+  - "67097df6"
+  - "dcd60860"
+  - "af60df2b"
+  - "8a942e0d"
+  - "6d04cbcb"
+  - "0b33d56c"
+  - "9f418190"
+  - "cbbeae77"
+  - "eec10fcf"
+  - "deeb355c"
+  - "09aecce5"
+  - "646e03cb"
+  - "7d99a02f"
+  - "2bf135d0"
+  - "3b7a0599"
+  - "70900a3c"
+  - "0911c6ec"
+  - "5d083b55"
+  - "a7c227c1"

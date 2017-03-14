@@ -1,0 +1,18 @@
+id: MNG-4904
+description: Make MavenExecutionResult.getTopologicallySortedProjects() return empty list instead of null
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-4904
+history start: b175144
+history end: 308d4d4
+test suite:
+  - "DefaultMavenExecutionTest.testResultWithNullTopologicallySortedProjectsIsEmptyList"
+history slice:
+  - "eaf528f2"
+  - "03789c31"
+  - "22f6fe36"
+  - "0bfec136"
+  - "93af60e0"
+  - "7e57e9ea"
+  - "308d4d45"

@@ -1,0 +1,12 @@
+id: CALCITE-758
+description: Use more than one lattice in the same query
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-758
+history start: 495f1859
+history end: 0c0c203d
+test suite:
+  - "LatticeTest.testTwoLattices"
+history slice:
+  - "bc8c4a98"

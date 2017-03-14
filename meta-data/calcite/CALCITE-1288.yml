@@ -1,0 +1,17 @@
+id: CALCITE-1288
+description: Avoid doing the same join twice if count(distinct) exists
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-1288
+history start: aeb6bf14
+history end: 08c56b15
+test suite:
+  - "RelOptRulesTest.testDistinctNonDistinctAggregates"
+history slice:
+  - "acd27fde"
+  - "787a9a1b"
+  - "c933c79f"
+  - "c7cbfdf9"
+  - "a859f93f"
+  - "0938c7b6"

@@ -1,0 +1,12 @@
+id: CALCITE-996
+description: Predicate should be simplified when we create a Filter operator
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-996
+history start: ba6e43c6
+history end: c4d346b0
+test suite:
+  - "RelBuilderTest.testScanFilterOr2"
+history slice:
+  - "a67b4a97"

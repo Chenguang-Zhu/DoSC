@@ -1,0 +1,15 @@
+id: PDFBOX-3418
+description: Slow string to hex conversion in ToUnicodeWriter
+project:
+  name: Pdfbox
+  project url: https://github.com/MSR-2017/pdfbox
+issue url: https://issues.apache.org/jira/browse/PDFBOX-3418
+history start: 3b5ae83
+history end: 5848e90
+test suite:
+  - "TestHexUtil.testGetCharsUTF16BE"
+  - "TestHexUtil.testGetCharsFromShortWithoutPassingInABuffer"
+history slice:
+  - "9b08a58f"
+  - "5dccf407"
+  - "fc5feecc"

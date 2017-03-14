@@ -1,0 +1,23 @@
+id: MNG-5805
+description: "Custom packaging types: configuring DefaultLifecycleMapping mojo executions"
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-5805
+history start: 0ddab5f
+history end: bb52d85
+test suite:
+  - "LifecyclePhaseTest.testToString"
+  - "LifecyclePhaseTest.testSet"
+history slice:
+  - "79941207"
+  - "f6488774"
+  - "1d148be8"
+  - "49a3e552"
+  - "7badeb5b"
+  - "7f206ef1"
+  - "cfd1fbe6"
+  - "df509db9"
+  - "81a3035c"
+  - "3677220f"
+  - "9f7971da"

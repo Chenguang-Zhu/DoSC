@@ -1,0 +1,13 @@
+id: PDFBOX-3262
+description: AcroForm flattening will cause hidden fields become visible
+project:
+  name: Pdfbox
+  project url: https://github.com/MSR-2017/pdfbox
+issue url: https://issues.apache.org/jira/browse/PDFBOX-3262
+history start: 7c1a2c8
+history end: 69a8e03
+test suite:
+  - "PDAcroFormFlattenTest.testFlattenPDFBOX3262"
+history slice:
+  - "cb9e8d85"
+  - "e647d8db"

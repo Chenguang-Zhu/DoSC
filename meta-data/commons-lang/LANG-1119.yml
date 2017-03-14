@@ -1,0 +1,12 @@
+id: LANG-1119
+description: Fix FastDateParse to do case-blind time zone matching?
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-1119
+history start: 0d5d666
+history end: 36f98d8
+test suite:
+  - "StringUtilsTest.testRotate_StringInt"
+history slice:
+  - "02a98515"

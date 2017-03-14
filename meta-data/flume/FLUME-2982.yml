@@ -1,0 +1,47 @@
+id: FLUME-2982
+description: Add localhost escape sequence to HDFS sink
+project:
+  name: Flume
+  project url: https://github.com/MSR-2017/flume
+issue url: https://issues.apache.org/jira/browse/FLUME-2982
+history start: f7560038
+history end: 5e400ea8
+test suite:
+  - "TestBucketPath.testStaticEscapeStrings"
+  - "TestBucketPath.testStaticEscapeStringsNoKey"
+history slice:
+  - "344e0acc"
+  - "b5e102be"
+  - "48126c23"
+  - "38f0b316"
+  - "5f6d6c3b"
+  - "4d712470"
+  - "a4946111"
+  - "32ef64dd"
+  - "757a560d"
+  - "318da208"
+  - "2cc93b77"
+  - "3fccd241"
+  - "bd80c5e6"
+  - "d8d97db4"
+  - "c8eb221c"
+  - "67ed62aa"
+  - "d6bf08b5"
+  - "0421fa2a"
+  - "e6416a07"
+  - "af63d38f"
+  - "7962ce63"
+  - "ffb52b9e"
+  - "5293eba9"
+  - "f8abaf78"
+  - "7f588e6a"
+  - "e8c4a7bf"
+  - "4eb2a3bb"
+  - "e6df16d7"
+  - "a619cc15"
+  - "ee4999bc"
+  - "7d1e683f"
+  - "2f731f0a"
+  - "2fe39389"
+  - "2252fb19"
+  - "a0a50849"

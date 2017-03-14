@@ -1,0 +1,26 @@
+id: LANG-993
+description: Add zero copy write method to StrBuilder
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-993
+history start: 24767d6
+history end: 76cc69c
+test suite:
+  - "StrBuilderTest.testReadFromReader"
+  - "StrBuilderTest.testReadFromReaderAppendsToEnd"
+  - "StrBuilderTest.testReadFromCharBuffer"
+  - "StrBuilderTest.testReadFromCharBufferAppendsToEnd"
+  - "StrBuilderTest.testReadFromReadable"
+  - "StrBuilderTest.testReadFromReadableAppendsToEnd"
+  - "StrBuilderTest.testAppendToWriter"
+  - "StrBuilderTest.testAppendToStringBuilder"
+  - "StrBuilderTest.testAppendToStringBuffer"
+  - "StrBuilderTest.testAppendToCharBuffer"
+history slice:
+  - "d72d2b08"
+  - "6b438fe9"
+  - "fbb0f7f8"
+  - "b4647110"
+  - "454fd1ea"
+  - "61259510"

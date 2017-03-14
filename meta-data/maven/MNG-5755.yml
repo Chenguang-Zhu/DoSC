@@ -1,0 +1,22 @@
+id: MNG-5755
+description: Access toolchains without maven-toolchain-plugin
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-5755
+history start: d13c288
+history end: cab6659
+test suite:
+  - "DefaultToolchainManagerTest.testNoModels"
+  - "DefaultToolchainManagerTest.testModelNoFactory"
+  - "DefaultToolchainManagerTest.testModelAndFactory"
+  - "DefaultToolchainManagerTest.testModelsAndFactory"
+  - "DefaultToolchainManagerTest.testRequirements"
+history slice:
+  - "12a6b3ac"
+  - "fa71e5f5"
+  - "a7ef7018"
+  - "ceae9226"
+  - "2d0ec942"
+  - "f7500874"
+  - "4b263106"

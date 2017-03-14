@@ -1,0 +1,16 @@
+id: CALCITE-991
+description: Create separate SqlFunctionCategory values for table functions and macros
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-991
+history start: aeb6bf14
+history end: 08c56b15
+test suite:
+  - "LookupOperatorOverloadsTest.testIsUserDefined"
+  - "LookupOperatorOverloadsTest.testIsTableFunction"
+  - "LookupOperatorOverloadsTest.testIsSpecific"
+  - "LookupOperatorOverloadsTest.testIsUserDefinedNotSpecificFunction"
+  - "LookupOperatorOverloadsTest.test"
+history slice:
+  - "0599cdde"

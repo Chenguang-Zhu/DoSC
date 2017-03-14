@@ -1,0 +1,15 @@
+id: CONFIGURATION-626
+description: Deprecate ImmutabelConfiguration.getArray() in favour of ImmutabelConfiguration.get().
+project:
+  name: Commons-configuration
+  project url: https://github.com/MSR-2017/commons-configuration
+issue url: https://issues.apache.org/jira/browse/CONFIGURATION-626
+history start: 89428f1
+history end: 9fb4ad8
+test suite:
+  - "TestAbstractConfigurationBasicFeatures.testGetArray"
+  - "TestAbstractConfigurationBasicFeatures.testGetArrayPrimitive"
+  - "TestAbstractConfigurationBasicFeatures.testGetArrayUnknownNoDefault"
+  - "TestAbstractConfigurationBasicFeatures.testGetArrayUnknownWithDefault"
+history slice:
+  - "f3a8208d"

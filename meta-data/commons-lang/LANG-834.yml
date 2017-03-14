@@ -1,0 +1,34 @@
+id: LANG-834
+description: "Validate: add inclusiveBetween and exclusiveBetween overloads for primitives types."
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-834
+history start: c4ecd75
+history end: 66a3717
+test suite:
+  - "ValidateTest.testInclusiveBetween"
+  - "ValidateTest.testInclusiveBetween_withMessage"
+  - "ValidateTest.testInclusiveBetweenLong"
+  - "ValidateTest.testInclusiveBetweenLong_withMessage"
+  - "ValidateTest.testInclusiveBetweenDouble"
+  - "ValidateTest.testInclusiveBetweenDouble_withMessage"
+  - "ValidateTest.testExclusiveBetween"
+  - "ValidateTest.testExclusiveBetween_withMessage"
+  - "ValidateTest.testExclusiveBetweenLong"
+  - "ValidateTest.testExclusiveBetweenLong_withMessage"
+  - "ValidateTest.testExclusiveBetweenDouble"
+  - "ValidateTest.testExclusiveBetweenDouble_withMessage"
+history slice:
+  - "33b22d8b"
+  - "0f2e42d6"
+  - "c99a4a3e"
+  - "24b6a468"
+  - "d971fa4c"
+  - "1b6457f7"
+  - "d883e823"
+  - "18c73f2d"
+  - "8ea0c028"
+  - "b05a81de"
+  - "5f8d9969"
+  - "11a15c63"

@@ -1,0 +1,15 @@
+id: FLUME-2206
+description: ElasticSearchSink ttl field modification to mimic Elasticsearch way of specifying TTL
+project:
+  name: Flume
+  project url: https://github.com/MSR-2017/flume
+issue url: https://issues.apache.org/jira/browse/FLUME-2206
+history start: cda3bd10
+history end: 31d45f1b
+test suite:
+  - "TestElasticSearchSink.shouldParseFullyQualifiedTTLs"
+history slice:
+  - "603bcf2d"
+  - "6dfe63cd"
+  - "58f3f6fb"
+  - "e12f0a7a"

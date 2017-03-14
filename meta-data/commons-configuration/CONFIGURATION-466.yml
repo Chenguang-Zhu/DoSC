@@ -1,0 +1,26 @@
+id: CONFIGURATION-466
+description: Binary literals
+project:
+  name: Commons-configuration
+  project url: https://github.com/MSR-2017/commons-configuration
+issue url: https://issues.apache.org/jira/browse/CONFIGURATION-466
+history start: 5270237
+history end: f81ff1a
+test suite:
+  - "TestBaseConfiguration.testGetBinaryValue"
+  - "TestPropertyConverter.testToNumberFromBinaryString"
+  - "TestPropertyConverter.testToNumberFromInvalidBinaryString"
+history slice:
+  - "495c2043"
+  - "123c9bde"
+  - "af1ee477"
+  - "8af499be"
+  - "301079a9"
+  - "f9456b90"
+  - "dcd03b34"
+  - "95f858bb"
+  - "0c806999"
+  - "77eaee0e"
+  - "375475a3"
+  - "4a58e3a2"
+  - "230446cd"

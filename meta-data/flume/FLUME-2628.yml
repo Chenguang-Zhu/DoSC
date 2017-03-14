@@ -1,0 +1,18 @@
+id: FLUME-2628
+description: Add an optional parameter to specify the expected input text encoding for the netcat sourcef the netcat source
+project:
+  name: Flume
+  project url: https://github.com/MSR-2017/flume
+issue url: https://issues.apache.org/jira/browse/FLUME-2628
+history start: f7560038
+history end: 5e400ea8
+test suite:
+  - "TestNetcatSource.testUTF16BEencoding"
+  - "TestNetcatSource.testUTF16LEencoding"
+  - "TestNetcatSource.testUTF8encoding"
+  - "TestNetcatSource.testIS88591encoding"
+  - "TestNetcatSource.testAck"
+  - "TestNetcatSource.testMaxLineLength"
+  - "TestNetcatSource.testMaxLineLengthwithAck"
+history slice:
+  - "4d712470"

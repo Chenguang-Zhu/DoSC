@@ -1,0 +1,48 @@
+id: CALCITE-1003
+description: Add Utility to convert RelNode to SqlNode
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-1003
+history start: ba6e43c6
+history end: c4d346b0
+test suite:
+  - "RelToSqlConverterTest.testSimpleSelectStarFromProductTable"
+  - "RelToSqlConverterTest.testSimpleSelectQueryFromProductTable"
+  - "RelToSqlConverterTest.testSelectQueryWithWhereClauseOfLessThan"
+  - "RelToSqlConverterTest.testSelectQueryWithWhereClauseOfBasicOperators"
+  - "RelToSqlConverterTest.testSelectQueryWithGroupBy"
+  - "RelToSqlConverterTest.testSelectQueryWithMinAggregateFunction"
+  - "RelToSqlConverterTest.testSelectQueryWithMinAggregateFunction1"
+  - "RelToSqlConverterTest.testSelectQueryWithSumAggregateFunction"
+  - "RelToSqlConverterTest.testSelectQueryWithMultipleAggregateFunction"
+  - "RelToSqlConverterTest.testSelectQueryWithMultipleAggregateFunction1"
+  - "RelToSqlConverterTest.testSelectQueryWithGroupByAndProjectList"
+  - "RelToSqlConverterTest.testSelectQueryWithGroupByAndProjectList1"
+  - "RelToSqlConverterTest.testSelectQueryWithGroupByHaving"
+  - "RelToSqlConverterTest.testSelectQueryWithOrderByClause"
+  - "RelToSqlConverterTest.testSelectQueryWithOrderByClause1"
+  - "RelToSqlConverterTest.testSelectQueryWithTwoOrderByClause"
+  - "RelToSqlConverterTest.testSelectQueryWithLimitClause"
+  - "RelToSqlConverterTest.testSelectQueryWithLimitClauseWithoutOrder"
+  - "RelToSqlConverterTest.testSelectQueryWithLimitOffsetClause"
+  - "RelToSqlConverterTest.testSelectQueryWithFetchOffsetClause"
+  - "RelToSqlConverterTest.testSelectQueryComplex"
+  - "RelToSqlConverterTest.testSelectQueryWithGroup"
+  - "RelToSqlConverterTest.testSimpleJoin"
+  - "RelToSqlConverterTest.testSimpleIn"
+history slice:
+  - "d71bd3d4"
+  - "3be816f4"
+  - "d259cad2"
+  - "cd58fe73"
+  - "a8a8878d"
+  - "eedd3dc4"
+  - "980d9f81"
+  - "47e0e7c9"
+  - "83fedf32"
+  - "82fd259c"
+  - "322b9730"
+  - "b5b28f0b"
+  - "4762b889"
+  - "c4d346b0"

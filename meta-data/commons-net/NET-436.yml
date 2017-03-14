@@ -1,0 +1,20 @@
+id: NET-436
+description: Support for SYST "Mac OS" listing
+project:
+  name: Commons-net
+  project url: https://github.com/MSR-2017/commons-net
+issue url: https://issues.apache.org/jira/browse/NET-436
+history start: d8812a3
+history end: 4c3860e
+test suite:
+  - "DefaultFTPFileEntryParserFactoryTest.testDefaultParserFactoryConfig"
+  - "MacOsPeterFTPEntryParserTest.testParseFieldsOnDirectory"
+  - "MacOsPeterFTPEntryParserTest.testParseFieldsOnFile"
+history slice:
+  - "43251045"
+  - "5278cd41"
+  - "e02aa9a8"
+  - "0d06c610"
+  - "dc153f13"
+  - "ef01edfc"
+  - "cd0770fe"

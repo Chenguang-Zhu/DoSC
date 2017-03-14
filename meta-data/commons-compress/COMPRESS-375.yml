@@ -1,0 +1,13 @@
+id: COMPRESS-375
+description: Allow the clients of ParallelScatterZipCreator to provide ZipArchiveEntryRequestSupplier
+project:
+  name: Commons-compress
+  project url: https://github.com/MSR-2017/commons-compress
+issue url: https://issues.apache.org/jira/browse/COMPRESS-375
+history start: 99bc508
+history end: b29395d
+test suite:
+  - "ParallelScatterZipCreatorTest.concurrent"
+  - "ParallelScatterZipCreatorTest.callableApi"
+history slice:
+  - "fdbfa5d9"

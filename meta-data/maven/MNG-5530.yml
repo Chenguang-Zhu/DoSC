@@ -1,0 +1,12 @@
+id: MNG-5530
+description: mojo execution guice scope
+project:
+  name: Maven
+  project url: https://github.com/MSR-2017/maven
+issue url: https://issues.apache.org/jira/browse/MNG-5530
+history start: b7e3ce2
+history end: ea8b2b0
+test suite:
+  - "MojoExecutionScopeTest.testNestedEnter"
+history slice:
+  - "5cf05463"

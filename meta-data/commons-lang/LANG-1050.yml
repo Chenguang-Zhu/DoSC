@@ -1,0 +1,22 @@
+id: LANG-1050
+description: Change nullToEmpty methods to generics
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-1050
+history start: 0d5d666
+history end: 36f98d8
+test suite:
+  - "ArrayUtilsTest.testNullToEmptyGenericNull"
+  - "ArrayUtilsTest.testNullToEmptyGenericEmpty"
+  - "ArrayUtilsTest.testNullToEmptyGeneric"
+  - "ArrayUtilsTest.testNullToEmptyGenericNullType"
+history slice:
+  - "cdbf4758"
+  - "1c532efd"
+  - "76cc69c3"
+  - "c9d3c58e"
+  - "86c76dd5"
+  - "3051264e"
+  - "29f03b5f"
+  - "7ef106b2"

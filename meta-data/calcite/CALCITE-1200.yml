@@ -1,0 +1,15 @@
+id: CALCITE-1200
+description: Handle null equality join condition as IS NOT DISTINCT FROM in RelOptUtil.splitJoinCondition
+project:
+  name: Calcite
+  project url: https://github.com/MSR-2017/calcite
+issue url: https://issues.apache.org/jira/browse/CALCITE-1200
+history start: 8eebfc6d
+history end: aeb6bf14
+test suite:
+  - "RelOptUtilTest.testSplitJoinConditionEquals"
+  - "RelOptUtilTest.testSplitJoinConditionIsNotDistinctFrom"
+  - "RelOptUtilTest.testSplitJoinConditionExpandedIsNotDistinctFrom"
+history slice:
+  - "3599cebb"
+  - "b76affcc"
