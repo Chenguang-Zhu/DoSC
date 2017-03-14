@@ -1,0 +1,24 @@
+[submodule "forked_projects/commons-lang"]
+	path = forked_projects/commons-lang
+	url = https://github.com/MSR-2017/commons-lang
+[submodule "forked_projects/calcite"]
+	path = forked_projects/calcite
+	url = https://github.com/MSR-2017/calcite
+[submodule "forked_projects/maven"]
+	path = forked_projects/maven
+	url = https://github.com/MSR-2017/maven
+[submodule "forked_projects/commons-compress"]
+	path = forked_projects/commons-compress
+	url = https://github.com/MSR-2017/commons-compress
+[submodule "forked_projects/flume"]
+	path = forked_projects/flume
+	url = https://github.com/MSR-2017/flume
+[submodule "forked_projects/pdfbox"]
+	path = forked_projects/pdfbox
+	url = https://github.com/MSR-2017/pdfbox
+[submodule "forked_projects/commons-configuration"]
+	path = forked_projects/commons-configuration
+	url = https://github.com/MSR-2017/commons-configuration
+[submodule "forked_projects/commons-net"]
+	path = forked_projects/commons-net
+	url = https://github.com/MSR-2017/commons-net
