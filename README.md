@@ -10,6 +10,16 @@ DoSC is a dataset created for benchmarking semantic history slicing techniques.
 DoSC is distributed under Apache license. See [license.txt](https://github.com/Chenguang-Zhu/DoSC/blob/master/license.txt) for details.
 
 ## Dataset
+### Usage
+1. Pick a functionality that you would like to analyze from the dataset. 
+2. View its meta-data file. See [meta-data](https://github.com/Chenguang-Zhu/DoSC/blob/master/meta-data).
+3. Access the repository of the project via the link provided in the `project url` field of the meta-data.
+4. Use `git clone` command to clone the project repository to the user's local file system.
+5. Extract the names of all test methods listed in the `test suite`	field of the meta-data.
+6. Use the extracted test cases and the history segment specified by the starting point (field `history start`) and the ending point (field `history end`) as the input on which to run the history slicing tool.
+7. Compare the resulting semantic history slice with the 1-minimal ground truth we provide (field `history slice`).
+8. Repeat the steps 1-6 until the evaluation is sufficient. 
+
 #### Columns in the table:
 >+ **Functionality ID**: The JIRA issue key of the functionality - a unique identifier originally assigned by developers in the JIRA issue tracking system.
 >+ **History Start**: The starting point of the history segment where the functionality was developed. It is the SHA-1 ID of a release commit, which is the closest release version before the functionality was developed.
