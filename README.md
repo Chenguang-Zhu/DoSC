@@ -1,7 +1,7 @@
 # DoSC
 A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories
 
-<This repository is for MSR 2017 paper submission - *A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories*.>
+<This repository is for MSR 2017 paper - *A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories*.>
 
 
 ## Dataset
