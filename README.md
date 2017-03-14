@@ -7,9 +7,20 @@
 DoSC is a dataset created for benchmarking semantic history slicing techniques.
 
 ## License
-DoSC is distributed under Apache license. See license.txt for details.
+DoSC is distributed under Apache license. See [license.txt](https://github.com/Chenguang-Zhu/DoSC/blob/master/license.txt) for details.
 
 ## Dataset
+### Usage
+1. Pick a functionality from the dataset. (See the table below.)
+2. View its meta-data file. See [meta-data collections](https://github.com/Chenguang-Zhu/DoSC/blob/master/meta-data).
+3. Access the repository of the project via the link provided in the `project url` field of the meta-data.
+4. Use `git clone` command to clone the project repository to the user's local file system.
+5. Extract the names of all test methods listed in the `test suite`	field of the meta-data.
+6. Use the extracted test cases and the history segment specified by the starting point (field `history start`) and the ending point (field `history end`) as the input on which to run the history slicing tool.
+7. Compare the resulting semantic history slice with the 1-minimal ground truth we provide (field `history slice`).
+8. Repeat the steps 1-6 until the evaluation is sufficient. 
+
+### Overview of the dataset
 #### Columns in the table:
 >+ **Functionality ID**: The JIRA issue key of the functionality - a unique identifier originally assigned by developers in the JIRA issue tracking system.
 >+ **History Start**: The starting point of the history segment where the functionality was developed. It is the SHA-1 ID of a release commit, which is the closest release version before the functionality was developed.
@@ -22,7 +33,6 @@ DoSC is distributed under Apache license. See license.txt for details.
 >+ **Slice Size**: The size of the 1-minimal history slice of each functionality, expressed as the number of commits.
 >+ **Reduction %**: *Reduction rate*. It stands for the proportion of the commits unrelated to its implementation.
 
-### Overview of the Dataset
 |Functionality ID|History Start|History End|#Commits|#Files Edited|#LOC +|#LOC -|#Test cases|Slice Size|Reduction %| 
 |:-------------:|-------------:|-----------:|--------:|-------------:|------:|------:|-----------:|----------:|--:|
 |<sub>LANG-825</sub>|<sub>bae9f7c3</sub>|<sub>15a51f1d</sub>|<sub>475</sub>|<sub>265</sub>|<sub>27630</sub>|<sub>11935</sub>|<sub>2</sub>|<sub>118</sub>|<sub>75.16</sub>|
