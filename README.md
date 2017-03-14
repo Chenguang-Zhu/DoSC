@@ -12,7 +12,7 @@ DoSC is distributed under Apache license. See [license.txt](https://github.com/C
 ## Dataset
 ### Usage
 1. Pick a functionality that you would like to analyze from the dataset. 
-2. View its meta-data file. See [meta-data](https://github.com/Chenguang-Zhu/DoSC/blob/master/meta-data).
+2. View its meta-data file. See [meta-data collections](https://github.com/Chenguang-Zhu/DoSC/blob/master/meta-data).
 3. Access the repository of the project via the link provided in the `project url` field of the meta-data.
 4. Use `git clone` command to clone the project repository to the user's local file system.
 5. Extract the names of all test methods listed in the `test suite`	field of the meta-data.
