@@ -7,7 +7,7 @@
 DoSC is a dataset created for benchmarking semantic history slicing techniques.
 
 ## License
-DoSC is distributed under Apache license. See license.txt for details.
+DoSC is distributed under Apache license. See license.txt(https://github.com/Chenguang-Zhu/DoSC/blob/master/license.txt) for details.
 
 ## Dataset
 #### Columns in the table:
