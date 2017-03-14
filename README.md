@@ -1,10 +1,13 @@
 # DoSC
-A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories
 
 ![DoSc logo](http://www.cs.toronto.edu/~polaris/img/benchmark/DoSC.png "DoSC")
 
 <This repository is for MSR 2017 paper - *A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories*.>
+## About
+DoSC is a dataset created for benchmarking semantic history slicing techniques.
 
+## Licnese
+DoSC is distributed under Apache license. See license.txt for details.
 
 ## Dataset
 #### Columns in the table:
