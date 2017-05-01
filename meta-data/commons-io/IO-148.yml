@@ -1,0 +1,46 @@
+id: IO-148
+description: IOException with constructors which take a cause
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-148
+history start: 61519de4
+history end: f6724182
+test suite:
+  - "IOExceptionWithCauseTestCase"
+history slice:
+  - "d981b95d"
+  - "403949d8"
+  - "82912208"
+  - "5100fa55"
+  - "5c3215b8"
+  - "2aead0f6"
+  - "b7b2fdba"
+  - "b7ee5814"
+  - "341ca46c"
+  - "bdaad67a"
+  - "38e66054"
+  - "aa1ba1e6"
+  - "15e3a2df"
+  - "a2ad873a"
+  - "7461d3db"
+  - "9666d74a"
+  - "2aaaa2a2"
+  - "17929c27"
+  - "ea3781d3"
+  - "4a02524a"
+  - "d82a2bac"
+  - "1b4e77fa"
+  - "d2bd4422"
+  - "46dd580e"
+  - "fecdc39c"
+  - "bf8f5bce"
+  - "33ab3ce0"
+  - "4bf0a19e"
+  - "24c740b1"
+  - "518d7353"
+developer labeled commits:
+  - "46dd580e"
+  - "bf8f5bce"
+  - "518d7353"
+  - "6ff368ee"

@@ -1,0 +1,58 @@
+id: LANG-1080
+description: Add NoClassNameToStringStyle implementation of ToStringStyle
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-1080
+history start: 24767d6
+history end: 76cc69c
+test suite:
+  - "NoClassNameToStringStyleTest.testBlank"
+  - "NoClassNameToStringStyleTest.testAppendSuper"
+  - "NoClassNameToStringStyleTest.testObject"
+  - "NoClassNameToStringStyleTest.testPerson"
+  - "NoClassNameToStringStyleTest.testLong"
+  - "NoClassNameToStringStyleTest.testObjectArray"
+  - "NoClassNameToStringStyleTest.testLongArray"
+  - "NoClassNameToStringStyleTest.testLongArrayArray"
+history slice:
+  - "d72d2b08"
+  - "6b438fe9"
+  - "fbb0f7f8"
+  - "b4647110"
+  - "454fd1ea"
+  - "61259510"
+  - "b4b51a8f"
+  - "64ef8a80"
+  - "4b74c385"
+  - "fd54d42f"
+  - "75fbc009"
+  - "d910918f"
+  - "7d6e0bec"
+  - "c3d65461"
+  - "b78295b4"
+  - "37283444"
+  - "d9658656"
+  - "7022c194"
+  - "6240a05c"
+  - "b1caa21b"
+  - "de67dec0"
+  - "5ae1b023"
+  - "1384457a"
+  - "bc8e2380"
+  - "2154d5fb"
+  - "22b6781a"
+  - "7406d02e"
+  - "aa3f1749"
+  - "4477ae69"
+  - "ef26a667"
+  - "635e41ea"
+  - "2afdf4d0"
+  - "0162032a"
+  - "e5a3039f"
+  - "4a2cc4f5"
+  - "9e26c7b6"
+  - "c5332828"
+  - "c87380f0"
+developer labeled commits:
+  - "c87380f0"

@@ -1,0 +1,15 @@
+id: IO-275
+description: "org.apache.commons.io.FileUtils.contentEquals - Add option to ignore line endings"
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-275
+history start: 8de491fc
+history end: b1b9f1af
+test suite:
+  - "FileUtilsTestCase.testContentEqualsIgnoreEOL"
+  - "IOUtilsTestCase.testContentEqualsIgnoreEOL"
+history slice:
+  - "a2cf5463"
+developer labeled commits:
+  - "a2cf5463"

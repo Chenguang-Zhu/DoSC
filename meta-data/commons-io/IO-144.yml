@@ -1,0 +1,14 @@
+id: IO-144
+description: CharSequence Reader implementation
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-144
+history start: 61519de4
+history end: f6724182
+test suite:
+  - "IOCaseTestCase"
+history slice:
+  - "db3e834e"
+developer labeled commits:
+  - "db3e834e"

@@ -1,0 +1,48 @@
+id: IO-291
+description: Add new function FileUtils.directoryContains
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-291
+history start: 8de491fc
+history end: b1b9f1af
+test suite:
+  - "FileUtilsDirectoryContainsTestCase.testCanonicalPath"
+  - "FileUtilsDirectoryContainsTestCase.testDirectoryContainsDirectory"
+  - "FileUtilsDirectoryContainsTestCase.testDirectoryContainsFile"
+  - "FileUtilsDirectoryContainsTestCase.testDirectoryDoesNotContainFile"
+  - "FileUtilsDirectoryContainsTestCase.testDirectoryDoesNotContainsDirectory"
+  - "FileUtilsDirectoryContainsTestCase.testDirectoryDoesNotExist"
+  - "FileUtilsDirectoryContainsTestCase.testSameFile"
+  - "FileUtilsDirectoryContainsTestCase.testFileDoesNotExist"
+  - "FileUtilsDirectoryContainsTestCase.testUnrealizedContainment"
+  - "FileUtilsDirectoryContainsTestCase.testFileDoesNotExistBug"
+history slice:
+  - "7fa02d13"
+  - "63a1efef"
+  - "33e9a899"
+  - "a2cf5463"
+  - "288d6f0a"
+  - "2316361c"
+  - "ec04894a"
+  - "531aaa5b"
+  - "b20daf59"
+  - "ec29cec2"
+  - "33b0f21c"
+  - "25aaa9cb"
+  - "d80edebc"
+  - "bf48fd5f"
+  - "94afbe46"
+  - "4b62012c"
+  - "e36e518c"
+  - "71a7618b"
+  - "fde4aaaf"
+  - "492e9b29"
+  - "f0fdfa63"
+  - "90c7e6b4"
+  - "0535d141"
+  - "91b2c630"
+developer labeled commits:
+  - "531aaa5b"
+  - "71a7618b"
+  - "90c7e6b4"

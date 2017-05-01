@@ -1,0 +1,59 @@
+id: LANG-536
+description: Add isSorted() to ArrayUtils
+project:
+  name: Commons-lang
+  project url: https://github.com/MSR-2017/commons-lang
+issue url: https://issues.apache.org/jira/browse/LANG-536
+history start: 24767d6
+history end: 76cc69c
+test suite:
+  - "ArrayUtilsTest.testIsSorted"
+  - "ArrayUtilsTest.testIsSortedComparator"
+  - "ArrayUtilsTest.testIsSortedNullComparator"
+  - "ArrayUtilsTest.testIsSortedInt"
+  - "ArrayUtilsTest.testIsSortedFloat"
+  - "ArrayUtilsTest.testIsSortedLong"
+  - "ArrayUtilsTest.testIsSortedDouble"
+  - "ArrayUtilsTest.testIsSortedChar"
+  - "ArrayUtilsTest.testIsSortedByte"
+  - "ArrayUtilsTest.testIsSortedShort"
+  - "ArrayUtilsTest.testIsSortedBool"
+  - "BooleanUtilsTest.testCompare"
+  - "CharUtilsTest.testCompare"
+  - "NumberUtilsTest.compareInt"
+  - "NumberUtilsTest.compareLong"
+  - "NumberUtilsTest.compareShort"
+  - "NumberUtilsTest.compareByte"
+history slice:
+  - "d72d2b08"
+  - "6b438fe9"
+  - "fbb0f7f8"
+  - "b4647110"
+  - "454fd1ea"
+  - "61259510"
+  - "b4b51a8f"
+  - "64ef8a80"
+  - "4b74c385"
+  - "fd54d42f"
+  - "75fbc009"
+  - "d910918f"
+  - "7d6e0bec"
+  - "c3d65461"
+  - "b78295b4"
+  - "37283444"
+  - "d9658656"
+  - "7022c194"
+  - "6240a05c"
+  - "b1caa21b"
+  - "de67dec0"
+  - "5ae1b023"
+  - "1384457a"
+  - "bc8e2380"
+  - "2154d5fb"
+  - "22b6781a"
+  - "7406d02e"
+  - "aa3f1749"
+  - "4477ae69"
+  - "ef26a667"
+developer labeled commits:
+  - "ef26a667"

@@ -1,0 +1,26 @@
+id: IO-138
+description: CharSequence Reader implementation
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-138
+history start: 61519de4
+history end: f6724182
+test suite:
+  - "FileUtilsTestCase"
+history slice:
+  - "5100fa55"
+  - "5c3215b8"
+  - "341ca46c"
+  - "a2ad873a"
+  - "7461d3db"
+  - "9666d74a"
+  - "2aaaa2a2"
+  - "17929c27"
+  - "ea3781d3"
+  - "d82a2bac"
+  - "1b4e77fa"
+  - "d2bd4422"
+  - "4bf0a19e"
+developer labeled commits:
+  - "4bf0a19e"

@@ -1,0 +1,23 @@
+id: CSV-159
+description: Add IgnoreCase option for accessing header names
+project:
+  name: Commons-csv
+  project url: https://github.com/MSR-2017/commons-csv
+issue url: https://issues.apache.org/jira/browse/CSV-159
+history start: b230a6f5
+history end: 7310e5c6
+test suite:
+  - "CSVParserTest.testIgnoreCaseHeaderMapping"
+history slice:
+  - "d641efa5"
+  - "5ed84ebe"
+  - "e7ccb14d"
+  - "68c74f62"
+  - "1d5dfcb8"
+  - "3b10c8f8"
+  - "c20cd95c"
+  - "2f76dfab"
+  - "d54b339c"
+  - "6b069cf4"
+developer labeled commits:
+  - "d54b339c"

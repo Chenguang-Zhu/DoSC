@@ -1,0 +1,46 @@
+id: IO-173
+description: FileUtils.listFiles() doesn't return directories
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-173
+history start: 8de491fc
+history end: b1b9f1af
+test suite:
+  - "FileUtilsTestCase.testListFilesWithDirs"
+  - "FileUtilsTestCase.testIterateFilesAndDirs"
+history slice:
+  - "7fa02d13"
+  - "63a1efef"
+  - "33e9a899"
+  - "a2cf5463"
+  - "288d6f0a"
+  - "2316361c"
+  - "ec04894a"
+  - "531aaa5b"
+  - "b20daf59"
+  - "ec29cec2"
+  - "33b0f21c"
+  - "25aaa9cb"
+  - "d80edebc"
+  - "bf48fd5f"
+  - "94afbe46"
+  - "4b62012c"
+  - "e36e518c"
+  - "71a7618b"
+  - "fde4aaaf"
+  - "492e9b29"
+  - "aad6359c"
+  - "7af4ac7c"
+  - "56c87a17"
+  - "28d32e9c"
+  - "025f2766"
+  - "05f4b42c"
+  - "6ab58439"
+  - "1e870590"
+  - "50a7fdca"
+  - "b1dede03"
+  - "4cef5296"
+  - "642d6594"
+developer labeled commits:
+  - "642d6594"

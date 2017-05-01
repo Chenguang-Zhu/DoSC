@@ -1,0 +1,37 @@
+id: IO-135
+description: Add convenience deleteQuietly to FileUtils
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-135
+history start: 61519de4
+history end: f6724182
+test suite:
+  - "FileUtilsTestCase"
+history slice:
+  - "5100fa55"
+  - "5c3215b8"
+  - "341ca46c"
+  - "66337284"
+  - "a2ad873a"
+  - "7461d3db"
+  - "9666d74a"
+  - "2aaaa2a2"
+  - "17929c27"
+  - "ea3781d3"
+  - "d82a2bac"
+  - "1b4e77fa"
+  - "422ce6fa"
+  - "d2bd4422"
+  - "fb24a474"
+  - "d7b27cca"
+  - "7a10ec81"
+  - "fe3554cc"
+  - "50f9c937"
+  - "2f8d0922"
+  - "4bf0a19e"
+  - "550e1d46"
+  - "eafc20dc"
+developer labeled commits:
+  - "eafc20dc"
+  - "da8e3183"

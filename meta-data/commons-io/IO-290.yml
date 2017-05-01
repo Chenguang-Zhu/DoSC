@@ -1,0 +1,19 @@
+id: IO-290
+description: Add read/readFully methods to IOUtils
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-290
+history start: 8de491fc
+history end: b1b9f1af
+test suite:
+  - "IOUtilsTestCase.testReadStream"
+  - "IOUtilsTestCase.testReadReader"
+history slice:
+  - "a2cf5463"
+  - "531aaa5b"
+  - "b20daf59"
+  - "ec29cec2"
+  - "25aaa9cb"
+developer labeled commits:
+  - "25aaa9cb"

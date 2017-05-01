@@ -1,0 +1,19 @@
+id: IO-126
+description: Request case insensitive file name filter
+project:
+  name: Commons-io
+  project url: https://github.com/MSR-2017/commons-io
+issue url: https://issues.apache.org/jira/browse/IO-126
+history start: 61519de4
+history end: f6724182
+test suite:
+  - "FileFilterTestCase"
+history slice:
+  - "5100fa55"
+  - "5c3215b8"
+  - "341ca46c"
+  - "a2ad873a"
+  - "7461d3db"
+  - "9666d74a"
+developer labeled commits:
+  - "9666d74a"
