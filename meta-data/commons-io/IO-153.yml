@@ -7,7 +7,12 @@ issue url: https://issues.apache.org/jira/browse/IO-153
 history start: 61519de4
 history end: f6724182
 test suite:
-  - "FileWriterWithEncodingTest"
+  - "FileWriterWithEncodingTest.testSameEncoding"
+  - "FileWriterWithEncodingTest.testDifferentEncoding"
+  - "FileWriterWithEncodingTest.testConstructor_File_encoding_badEncoding"
+  - "FileWriterWithEncodingTest.testConstructor_File_directory"
+  - "FileWriterWithEncodingTest.testConstructor_File_nullFile"
+  - "FileWriterWithEncodingTest.testConstructor_fileName_nullFile"
 history slice:
   - "d981b95d"
   - "403949d8"

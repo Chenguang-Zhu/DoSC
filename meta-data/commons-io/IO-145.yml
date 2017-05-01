@@ -7,12 +7,18 @@ issue url: https://issues.apache.org/jira/browse/IO-145
 history start: 61519de4
 history end: f6724182
 test suite:
-  - "DefaultFileComparatorTest"
-  - "ExtensionFileComparatorTest"
-  - "LastModifiedFileComparatorTest"
-  - "NameFileComparatorTest"
-  - "PathFileComparatorTest"
-  - "SizeFileComparatorTest"
+  - "DefaultFileComparatorTest.testComparator"
+  - "DefaultFileComparatorTest.testReverseComparator"
+  - "ExtensionFileComparatorTest.testComparator"
+  - "ExtensionFileComparatorTest.testReverseComparator"
+  - "LastModifiedFileComparatorTest.testComparator"
+  - "LastModifiedFileComparatorTest.testReverseComparator"
+  - "NameFileComparatorTest.testComparator"
+  - "NameFileComparatorTest.testReverseComparator"
+  - "PathFileComparatorTest.testComparator"
+  - "PathFileComparatorTest.testReverseComparator"
+  - "SizeFileComparatorTest.testComparator"
+  - "SizeFileComparatorTest.testReverseComparator"
 history slice:
   - "d981b95d"
   - "403949d8"

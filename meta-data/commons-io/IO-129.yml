@@ -7,7 +7,13 @@ issue url: https://issues.apache.org/jira/browse/IO-129
 history start: 61519de4
 history end: f6724182
 test suite:
-  - "TeeInputStreamTest"
+  - "TeeInputStreamTest.testReadNothing"
+  - "TeeInputStreamTest.testReadOneByte"
+  - "TeeInputStreamTest.testReadEverything"
+  - "TeeInputStreamTest.testReadToArray"
+  - "TeeInputStreamTest.testReadToArrayWithOffset"
+  - "TeeInputStreamTest.testSkip"
+  - "TeeInputStreamTest.testMarkReset"
 history slice:
   - "5100fa55"
   - "5c3215b8"
