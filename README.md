@@ -46,6 +46,12 @@ DoSC is distributed under Apache license. See [license.txt](https://github.com/C
 |<sub>LANG-1006</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>2</sub>|<sub>14</sub>|<sub>94.66</sub>|
 |<sub>LANG-1033</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>1</sub>|<sub>22</sub>|<sub>91.6</sub>|
 |<sub>LANG-1088</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>2</sub>|<sub>1</sub>|<sub>99.62</sub>|
+|<sub>LANG-536</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>17</sub>|<sub>30</sub>|<sub>88.55</sub>|
+|<sub>LANG-883</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>1</sub>|<sub>36</sub>|<sub>86.26</sub>|
+|<sub>LANG-1015</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>9</sub>|<sub>39</sub>|<sub>85.11</sub>|
+|<sub>LANG-1021</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>16</sub>|<sub>28</sub>|<sub>89.31</sub>|
+|<sub>LANG-1080</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>8</sub>|<sub>38</sub>|<sub>85.5</sub>|
+|<sub>LANG-1093</sub>|<sub>24767d6</sub>|<sub>76cc69c</sub>|<sub>262</sub>|<sub>146</sub>|<sub>6741</sub>|<sub>2076</sub>|<sub>2</sub>|<sub>63</sub>|<sub>75.95
 |<sub>LANG-1050</sub>|<sub>0d5d666</sub>|<sub>36f98d8</sub>|<sub>515</sub>|<sub>309</sub>|<sub>18885</sub>|<sub>6395</sub>|<sub>4</sub>|<sub>8</sub>|<sub>98.45</sub>|
 |<sub>LANG-1074</sub>|<sub>0d5d666</sub>|<sub>36f98d8</sub>|<sub>515</sub>|<sub>309</sub>|<sub>18885</sub>|<sub>6395</sub>|<sub>9</sub>|<sub>6</sub>|<sub>98.83</sub>|
 |<sub>LANG-1119</sub>|<sub>0d5d666</sub>|<sub>36f98d8</sub>|<sub>515</sub>|<sub>309</sub>|<sub>18885</sub>|<sub>6395</sub>|<sub>1</sub>|<sub>1</sub>|<sub>99.81</sub>|
