@@ -14,3 +14,5 @@ test suite:
   - "TypeUtilsTest.testToLongString"
 history slice:
   - "01925653"
+developer labeled commits:
+  - "01925653"

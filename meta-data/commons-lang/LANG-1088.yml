@@ -11,3 +11,6 @@ test suite:
   - "FastDateParserTest.testSpecialCharacters"
 history slice:
   - "3b2de24a"
+developer labeled commits:
+  - "3b2de24a"
+  - "649a089d"

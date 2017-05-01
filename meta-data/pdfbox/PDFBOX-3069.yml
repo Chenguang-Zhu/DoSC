@@ -11,3 +11,6 @@ test suite:
   - "CCITTFactoryTest.testCreateFromBufferedImage"
 history slice:
   - "d138f0b6"
+developer labeled commits:
+  - "d138f0b6"
+  - "848fb073"

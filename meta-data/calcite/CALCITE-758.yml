@@ -10,3 +10,6 @@ test suite:
   - "LatticeTest.testTwoLattices"
 history slice:
   - "bc8c4a98"
+developer labeled commits:
+  - "bc8c4a98"
+  - "31cab4da"
