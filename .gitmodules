@@ -22,3 +22,9 @@
 [submodule "forked_projects/commons-net"]
 	path = forked_projects/commons-net
 	url = https://github.com/MSR-2017/commons-net
+[submodule "forked_projects/commons-csv"]
+	path = forked_projects/commons-csv
+	url = https://github.com/MSR-2017/commons-csv
+[submodule "forked_projects/commons-io"]
+	path = forked_projects/commons-io
+	url = https://github.com/MSR-2017/commons-io
