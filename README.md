@@ -12,7 +12,7 @@ DoSC is distributed under Apache license. See [license.txt](https://github.com/C
 ## People
 **Chenguang Zhu**  czhu@cs.toronto.edu  
 **Yi Li**  liyi@cs.toronto.edu  
-**Julia Rubin**  mjulia@ece.ubc.ca    
+**Julia Rubin**  mjulia@ece.ubc.ca  
 **Marsha Chechik**  chechik@cs.toronto.edu    
 
 ## Dataset
