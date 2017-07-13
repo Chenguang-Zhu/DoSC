@@ -10,10 +10,10 @@ DoSC is a dataset created for benchmarking semantic history slicing techniques.
 DoSC is distributed under Apache license. See [license.txt](https://github.com/Chenguang-Zhu/DoSC/blob/master/license.txt) for details.
 
 ## People
-Chenguang Zhu  czhu@cs.toronto.edu  
-Yi Li  liyi@cs.toronto.edu  
-Julia Rubin  mjulia@ece.ubc.ca  
-Marsha Chechik  chechik@cs.toronto.edu  
+**Chenguang Zhu**  czhu@cs.toronto.edu  
+**Yi Li**  liyi@cs.toronto.edu  
+**Julia Rubin**  mjulia@ece.ubc.ca  
+**Marsha Chechik**  chechik@cs.toronto.edu  
 
 ## Dataset
 ### Usage
