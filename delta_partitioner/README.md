@@ -6,8 +6,8 @@ DeltaPartitioner is implemented as an extension of Definer, the source code and 
 
 
 #### Requirements
+
 JDK 1.7+ 
- 
 Maven 3.0 or later
 
 #### Usage
@@ -17,3 +17,12 @@ Maven 3.0 or later
 3. Write a simple python script, providing the commands of compiling source code and executing test cases. Please refer to the template we provide in this directory.
 2. Run the command `java -jar delta_partitioner.jar -c /path/configuration_file_name -e delta`
 3. Go to the end of the output. The 1-minimal semantic history slice can be found at the lines starting with "H\*".  
+
+#### People
+
+Send email to us if you have any questions with installing or using DeltaPartitioner.
+
+**Chenguang Zhu**  czhu@cs.toronto.edu  
+**Yi Li**  liyi@cs.toronto.edu  
+**Julia Rubin**  mjulia@ece.ubc.ca  
+**Marsha Chechik**  chechik@cs.toronto.edu
