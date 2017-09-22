@@ -5,6 +5,10 @@ DeltaPartitioner is a software version history partitioning tool for Java projec
 DeltaPartitioner is implemented as an extension of Definer, the source code and complete documentation is available [HERE](https://bitbucket.org/liyistc/gitslice).
 
 
+#### Requirements
+JDK 1.7+
+Maven 3.0 or later
+
 #### Usage
 
 1. Download delta_partitioner.jar.
