@@ -6,7 +6,8 @@ DeltaPartitioner is implemented as an extension of Definer, the source code and 
 
 
 #### Requirements
-JDK 1.7+
+JDK 1.7+ 
+ 
 Maven 3.0 or later
 
 #### Usage
