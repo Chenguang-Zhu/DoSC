@@ -21,7 +21,7 @@ Maven 3.0 or later
 
 #### People
 
-Please send us emails if you have got any problem with installing or using DeltaPartitioner.
+Please send us emails if you got any problem with installing or using DeltaPartitioner.
 
 **Chenguang Zhu**  czhu@cs.toronto.edu  
 **Yi Li**  liyi@cs.toronto.edu  
