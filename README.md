@@ -15,6 +15,9 @@ DoSC is distributed under Apache license. See [license.txt](https://github.com/C
 **Julia Rubin**  mjulia@ece.ubc.ca  
 **Marsha Chechik**  chechik@cs.toronto.edu    
 
+## Publication
+C. Zhu, Y. Li, J. Rubin, and M. Chechik, “[A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories](http://ieeexplore.ieee.org/document/7962412),” in Proc. of MSR’17, May 2017, pp. 523–526.  
+
 ## Dataset
 ### Usage
 1. Pick a functionality from the dataset. (See the table below.)
