@@ -7,7 +7,7 @@
 DoSC is a dataset created for benchmarking techniques that dynamically discover semantic changes, including Semantic History Slicing techniques and Dynamic Feature Location techniques.
 
 ## License
-DoSC is distributed under Apache license. See [license.txt](https://github.com/Chenguang-Zhu/DoSC/blob/master/license.txt) for details.
+DoSC is distributed under Apache license. See [license.txt](https://github.com/Chenguang-Zhu/DoSC/blob/master/LICENSE) for details.
 
 ## People
 **Chenguang Zhu**  cgzhu@utexas.edu  
