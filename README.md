@@ -11,7 +11,7 @@ DoSC is distributed under Apache license. See [license.txt](https://github.com/C
 
 ## People
 **Chenguang Zhu**  cgzhu@utexas.edu  
-**Yi Li**  liyi@cs.toronto.edu  
+**Yi Li**  yi_li@ntu.edu.sg  
 **Julia Rubin**  mjulia@ece.ubc.ca  
 **Marsha Chechik**  chechik@cs.toronto.edu    
 
