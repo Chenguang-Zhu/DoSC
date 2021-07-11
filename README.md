@@ -1,6 +1,7 @@
 # DoSC
 
-![DoSc logo](http://www.cs.toronto.edu/~polaris/img/benchmark/DoSC.png "DoSC")
+![DoSc logo](http://www.cs.toronto.edu/~polaris/img/benchmark/DoSC.png "DoSC")  
+[![DOI](https://zenodo.org/badge/84890744.svg)](https://zenodo.org/badge/latestdoi/84890744)
 
 <!--This repository is for MSR 2017 paper - *A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories*.-->
 ## About
